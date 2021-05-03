@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Parallax Scrolling | Adventure</title>
+</head>
+
+<body>
+    <header id="header">
+        <a href="#" class="logo">Jungle</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <h2 id="text">
+            <span>It's time for a new</span> <br>
+            Adventure
+        </h2>
+
+        <img src="/img/bird1.png" alt="img" id="bird1" style="top: 50px;">
+        <img src="/img/bird2.png" alt="img" id="bird2" style="top: 0;">
+        <img src="/img/forest.png" alt="img" id="forest" style="top: 100px;">
+
+        <a href="#" id="btn">Explore</a>
+
+        <img src="/img/rocks.png" alt="img" id="rocks">
+        <img src="/img/water.png" alt="img" id="water">
+    </section>
+
+    <div class="section-container" id="about">
+        <h2 class="title-section">About</h2>
+        <div style="display: flex; align-items: center;">
+            <img src="/img/adventure.webp" alt="image" id="img-about">
+            <div class="container-text-about" id="text-about">
+                <h3>Jungle</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptate expedita numquam amet
+                    itaque
+                    distinctio perspiciatis natus nemo corporis ex? Numquam, ea? Vero voluptate eum quo id, quam ratione
+                    ea!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptate expedita numquam amet
+                    itaque
+                    distinctio perspiciatis natus nemo corporis ex? Numquam, ea? Vero voluptate eum quo id, quam ratione
+                    ea!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptate expedita numquam amet
+                    itaque
+                    distinctio perspiciatis natus nemo corporis ex? Numquam, ea? Vero voluptate eum quo id, quam ratione
+                    ea!
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-container" id="destination" style="padding-left: 0px; padding-right: 0px;">
+        <h2 class="title-section" style="margin: 0 100px;">Destination</h2>
+        <div id="container-destination">
+            <img src="/img/adventure.webp" alt="image" id="image-fundo">
+            <div id="conteudo">
+                <h3 style="color: #fff;" id="titulo-aventura">Camping</h3>
+                <p style="color: #fff;">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptate expedita numquam amet
+                    itaque
+                    distinctio perspiciatis natus nemo corporis ex? Numquam, ea? Vero voluptate eum quo id, quam ratione
+                    ea!
+                </p>
+                <div id="container-cards"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-container" id="contact">
+        <h2 class="title-section">Contact</h2>
+        <div id="container-redes-sociais">
+            <div class="card-rede-social" id="face">
+                <img src="/img/facebook.png" alt="facebook">
+                <p>Adventure Page</p>
+            </div>
+            <div class="card-rede-social" id="insta">
+                <img src="/img/instagram.png" alt="instagram">
+                <p>adventure_page</p>
+            </div>
+            <div class="card-rede-social" id="wpp">
+                <img src="/img/whatsapp.png" alt="whatsapp">
+                <p>(11) 90291-2012</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
