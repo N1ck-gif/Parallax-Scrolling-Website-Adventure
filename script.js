@@ -67,8 +67,10 @@ window.addEventListener('load', (e) => {
                 <p>${card.nome}</p>
             </div>
         `;
+
     });
 
+    document.getElementById(cards[0].nome).classList.add('active')
 });
 
 const alternarConteudo = (e) => {
